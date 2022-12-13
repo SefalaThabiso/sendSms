@@ -1,0 +1,19 @@
+How to use module
+
+USe the following function as follows. Include all 
+four arguments. This program was tested with smsbulk
+ services.
+
+
+e.g
+sendMessages(username, password,messages,url);
+
+Use the follwing example to formart your message variable:
+
+messages = array(
+array('to'=>'+27859948855', 'body'=>'write a message to send here'),
+array('to'=>'+27859948855', 'body'=>'write a message to send here')
+);  
+
+
+dont forget to use include
